@@ -1,0 +1,62 @@
+body {
+  max-width: 2000px;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-tile {
+  display:flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: green;
+  width: 600px;
+  height: 600px;
+  border: 1px white solid;
+  padding:30px;
+}
+
+.fullwidth-tile {
+  flex-grow: 2;
+}
+
+.flex-content {
+  padding:0px 30px 0px 30px;
+}
+
+.flex-tile1 {
+  background-image: linear-gradient(#142F47, #1C3F5B);
+}
+
+.flex-tile2 {
+   background-image: linear-gradient(270deg, #142F47, #1C3F5B);
+}
+
+.flex-tile3 {
+  background-image: linear-gradient(to top left, #142F47, #1C3F5B);
+}
+
+.flex-tile4 {
+  background-image: linear-gradient(90deg, #142F47, #1C3F5B);
+
+}
+
+.flex-tile5 {
+  background-image: linear-gradient(#142F47, #1C3F5B);
+}
+
+.flex-tile6 {
+  background-image: linear-gradient(to right, #142F47, #1C3F5B);
+}
+
+.flex-tile7 {
+  background-image: linear-gradient(to bottom right, #142F47, #1C3F5B);
+}
